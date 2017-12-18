@@ -658,6 +658,7 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+    <Content Include="WebBase.html" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="about.html" />
