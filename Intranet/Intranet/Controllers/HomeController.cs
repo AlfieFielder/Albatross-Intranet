@@ -13,9 +13,9 @@ namespace Intranet.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult Team_Pages()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Find your team page below!";
 
             return View();
         }
@@ -24,6 +24,27 @@ namespace Intranet.Controllers
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        public ActionResult CrisisTeam()
+        {
+            return View();
+        }
+
+
+
+
+
+
+        //TeamPages Links
+        public ActionResult Accounts()
+        {
+            return View();
+        }
+
+        public ActionResult AlbatrossEuropa()
+        {
             return View();
         }
     }

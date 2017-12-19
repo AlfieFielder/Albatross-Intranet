@@ -1,0 +1,35 @@
+﻿@{
+    ViewBag.Title = "Team Pages";
+}
+
+<div class="jumbotron">
+
+<h1>@ViewBag.Title</h1>
+<p>@ViewBag.Message</p>
+
+</div>
+
+<div align="center" class="container">
+
+    <table width="1000" cellspacing="2" cellpadding="0" border="0">
+        <tr>
+            <th><h4>@Html.ActionLink("Albatross Travel", "Albatross Travel", "Home")</h4></th>
+            <th><h4>@Html.ActionLink("Albatross Europa", "AlbatrossEuropa", "Home")</h4></th>
+            <th><h4>@Html.ActionLink("Supply & Service", "Supply & Service", "Home")</h4></th>
+            <th><h4>@Html.ActionLink("Product", "Product", "Home")</h4></th>
+        </tr>
+        <tr>
+            <th><h4>@Html.ActionLink("People & Admin Services", "People & Admin Services", "Home")</h4></th>
+            <th><h4>@Html.ActionLink("IT", "IT", "Home")</h4></th>
+            <th><h4>@Html.ActionLink("Group Contracting", "Group Contracting", "Home")</h4></th>
+            <th><h4>@Html.ActionLink("Accounts", "Accounts", "Home")</h4></th>
+        </tr>
+        <tr>
+            <th><h4>@Html.ActionLink("Door2Tour", "Door2Tour", "Home")</h4></th>
+            <th><h4>@Html.ActionLink("Success", "Success", "Home")</h4></th>
+            <th><h4>@Html.ActionLink("Albatross Tours", "AlbatrossTours", "Home")</h4></th>
+            <th><h4>@Html.ActionLink("E-commerce", "E-commerce", "Home")</h4></th>
+        </tr>
+    </table>
+
+</div>
